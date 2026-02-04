@@ -34,6 +34,15 @@ A honeypot application designed to detect and waste the time of scammers by simu
 2.  **Open the interface**:
     - Visit `http://localhost:8000` in your browser.
 
+## Docker Usage
+
+1.  **Build and Run**:
+    ```bash
+    docker-compose up --build
+    ```
+2.  **Access**:
+    - Open `http://localhost:8000`
+
 ## API Endpoints
 
 - `GET /`: Serves the chat interface.
