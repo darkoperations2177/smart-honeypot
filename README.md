@@ -9,6 +9,8 @@ A honeypot application designed to detect and waste the time of scammers by simu
 - **Smart Response**: Uses LLMs (via OpenRouter) to generate context-aware responses.
 - **Reporting**: Automatically sends reports of detected scams to a callback URL.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/darkoperations2177/smart-honeypot)
+
 ## Setup
 
 1.  **Clone the repository**

@@ -34,12 +34,11 @@ app.add_middleware(
 )
 
 # Mount Static Files
-# We mount it to /static, but we also want the root / to serve index.html
-app.mount("/static", StaticFiles(directory="static"), name="static")
+# app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/")
 async def read_index():
-    return FileResponse('static/index.html')
+    return FileResponse('index.html')
 
 # In-memory database
 session_db = {}
